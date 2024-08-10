@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-kr1p-zj6!vss$(xd2f7vk8nw*3g@-ao92zzg8^@u!mj(l#s)+i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -72,8 +72,12 @@ WSGI_APPLICATION = 'online_shop.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+       'ENGINE': 'django.db.backends.postgresql',  # For PostgreSQL
+        'NAME': 'shop',
+        'USER': 'myuser',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',  # Or the IP address of your database
+        'PORT': '5432',  # Default port for PostgreSQL
     }
 }
 
