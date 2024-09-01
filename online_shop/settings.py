@@ -14,8 +14,10 @@ SECRET_KEY = 'django-insecure-kr1p-zj6!vss$(xd2f7vk8nw*3g@-ao92zzg8^@u!mj(l#s)+i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Application definition
 
@@ -73,10 +75,10 @@ WSGI_APPLICATION = 'online_shop.wsgi.application'
 DATABASES = {
     'default': {
        'ENGINE': 'django.db.backends.postgresql',  # For PostgreSQL
-        'NAME': 'shop',
-        'USER': 'myuser',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',  # Or the IP address of your database
+        'NAME': 'database-1',
+        'USER': 'postgres',
+        'PASSWORD': 'clc_2024!',
+        'HOST': 'database-1.cdljbhlm6hi7.us-east-1.rds.amazonaws.com',  # Endpoint RDS
         'PORT': '5432',  # Default port for PostgreSQL
     }
 }
@@ -123,6 +125,7 @@ STATIC_URL = 'static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
@@ -133,11 +136,25 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_URL = 'accounts:user_login'
 
-
+DEFAULT_FROM_EMAIL = 'no-reply@clc.shop'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_SSL = False
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'username@example.com'
-EMAIL_HOST_PASSWORD = 'your-password'
+EMAIL_HOST_USER = 'clc.shop.project@gmail.com'
+EMAIL_HOST_PASSWORD = 'fang ujan miwa yoxt'
+
+# AWS S3 Settings
+AWS_STORAGE_BUCKET_NAME = 'bucket-clc'
+AWS_S3_REGION_NAME = 'us-east-1'  # Modifica con la tua regione
+AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+AWS_S3_OBJECT_PARAMETERS = {
+    'CacheControl': 'max-age=86400',
+}
+
+# Directory in S3
+AWS_LOCATION = 'images'
+MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{AWS_LOCATION}/'
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'

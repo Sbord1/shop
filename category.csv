@@ -1,0 +1,10 @@
+title,is_sub,slug,sub_category_id
+Electronics,False,electronics,
+Smartphones,True,smartphones,1
+Laptops,True,laptops,1
+Home Appliances,False,home-appliances,
+Kitchen,True,kitchen,4
+Fashion,False,fashion,
+Men's Clothing,True,mens-clothing,6
+Women's Clothing,True,womens-clothing,6
+Accessories,True,accessories,6

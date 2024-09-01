@@ -1,0 +1,31 @@
+image,title,description,price,date_created,slug,category_id
+https://bucket-clc.s3.amazonaws.com/images/iphone13.jpg,iPhone 13,The latest iPhone with 5G technology,999,2023-01-01 10:00:00,iphone-13,15
+https://bucket-clc.s3.amazonaws.com/images/galaxys21.jpg,Samsung Galaxy S21,Latest Samsung Galaxy with AMOLED display,899,2023-02-01 11:00:00,samsung-galaxy-s21,15
+https://bucket-clc.s3.amazonaws.com/images/pixel5.jpg,Google Pixel 5,Google's flagship smartphone with pure Android experience,699,2023-03-01 12:00:00,google-pixel-5,15
+https://bucket-clc.s3.amazonaws.com/images/oneplus.png,OnePlus 9,High-performance smartphone with OxygenOS,729,2023-04-01 13:00:00,oneplus-9,15
+https://bucket-clc.s3.amazonaws.com/images/xiaomi.jpg,Xiaomi Mi 11,Affordable flagship with excellent camera,649,2023-05-01 14:00:00,xiaomi-mi-11,15
+https://bucket-clc.s3.amazonaws.com/images/macbook.jpeg,MacBook Pro 16,Powerful laptop from Apple,2499,2023-06-01 15:00:00,macbook-pro-16,16
+https://bucket-clc.s3.amazonaws.com/images/dellxps.png,Dell XPS 13,Compact and powerful ultrabook,1199,2023-07-01 16:00:00,dell-xps-13,16
+https://bucket-clc.s3.amazonaws.com/images/hpspectre.jpg,HP Spectre x360,Versatile 2-in-1 laptop with premium design,1399,2023-08-01 17:00:00,hp-spectre-x360,16
+https://bucket-clc.s3.amazonaws.com/images/surfacebook.jpg,Microsoft Surface Book 3,Laptop and tablet in one,1599,2023-09-01 18:00:00,microsoft-surface-book-3,16
+https://bucket-clc.s3.amazonaws.com/images/lenovo.png,Lenovo ThinkPad X1,Business laptop with legendary keyboard,1299,2023-10-01 19:00:00,lenovo-thinkpad-x1,16
+https://bucket-clc.s3.amazonaws.com/images/blender.jpg,High-Speed Blender,Powerful blender for smoothies,199,2023-01-02 10:00:00,high-speed-blender,17
+https://bucket-clc.s3.amazonaws.com/images/airfryer.jpeg,Air Fryer,Healthy frying with less oil,99,2023-02-02 11:00:00,air-fryer,17
+https://bucket-clc.s3.amazonaws.com/images/coffe.png,Coffee Maker,Brew perfect coffee every morning,129,2023-03-02 12:00:00,coffee-maker,17
+https://bucket-clc.s3.amazonaws.com/images/toaster.jpg,4-Slice Toaster,Toast multiple slices at once,49,2023-04-02 13:00:00,4-slice-toaster,17
+https://bucket-clc.s3.amazonaws.com/images/kettle.jpg,Electric Kettle,Boil water quickly and efficiently,39,2023-05-02 14:00:00,electric-kettle,17
+https://bucket-clc.s3.amazonaws.com/images/jacket.jpg,Leather Jacket,Stylish leather jacket for men,199,2023-06-02 15:00:00,leather-jacket,18
+https://bucket-clc.s3.amazonaws.com/images/jeans.jpeg,Blue Jeans,Classic denim jeans,69,2023-07-02 16:00:00,blue-jeans,18
+https://bucket-clc.s3.amazonaws.com/images/tshirt.png,White T-Shirt,Basic white t-shirt 100% cotton,19,2023-08-02 17:00:00,white-t-shirt,18
+https://bucket-clc.s3.amazonaws.com/images/sneakers.png,Running Sneakers,Comfortable sneakers for running,89,2023-09-02 18:00:00,running-sneakers,18
+https://bucket-clc.s3.amazonaws.com/images/hoodie.png,Grey Hoodie,Cozy hoodie for casual wear,59,2023-10-02 19:00:00,grey-hoodie,18
+https://bucket-clc.s3.amazonaws.com/images/summerdress.jpg,Summer Dress,Light and comfortable summer dress,49,2023-01-03 10:00:00,summer-dress,19
+https://bucket-clc.s3.amazonaws.com/images/winterjacket.png,Winter Jacket,Warm jacket for winter,149,2023-02-03 11:00:00,winter-jacket,19
+https://bucket-clc.s3.amazonaws.com/images/jeanswomen.jpeg,Skinny Jeans,Stylish skinny jeans for women,79,2023-03-03 12:00:00,skinny-jeans,19
+https://bucket-clc.s3.amazonaws.com/images/tshirtwomen.png,V-Neck T-Shirt,Comfortable v-neck t-shirt,29,2023-04-03 13:00:00,v-neck-t-shirt,19
+https://bucket-clc.s3.amazonaws.com/images/heels.png,High Heels,Elegant high heels for special occasions,99,2023-05-03 14:00:00,high-heels,19
+https://bucket-clc.s3.amazonaws.com/images/sunglasses.jpg,Sunglasses,Trendy sunglasses with UV protection,99,2023-06-03 15:00:00,sunglasses,20
+https://bucket-clc.s3.amazonaws.com/images/zaino.jpg,Leather Backpack,Stylish leather backpack,199,2023-07-03 16:00:00,leather-backpack,20
+https://bucket-clc.s3.amazonaws.com/images/portafoglio.jpg,Slim Wallet,Compact wallet with RFID protection,49,2023-08-03 17:00:00,slim-wallet,20
+https://bucket-clc.s3.amazonaws.com/images/orologio.jpeg,Smartwatch,Wearable technology with fitness tracking,299,2023-09-03 18:00:00,smartwatch,20
+https://bucket-clc.s3.amazonaws.com/images/cappello.jpg,Cap,Very cool Cap,29,2023-10-03 19:00:00,cap,20

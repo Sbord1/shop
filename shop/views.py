@@ -27,7 +27,7 @@ def home_page(request):
 
 def product_detail(request, slug):
 	form = QuantityForm()
-	product = get_object_or_404(Product, slug=slug)
+	product = get_object_or_404(Product, slug=slug) 
 	related_products = Product.objects.filter(category=product.category).all()[:5]
 	context = {
 		'title':product.title,
